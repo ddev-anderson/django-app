@@ -1,0 +1,29 @@
+# Sistema operacional
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+.idea
+.vscode
+__pycache__/
+
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos do banco de dados local
+db.sqlite3
+
+# Configurações específicas do ambiente
+.env
+.env.*
+
+# Mídia e arquivos estáticos
+/media
+/staticfiles
+/static
+
+# Django migrations
+*/migrations/*
